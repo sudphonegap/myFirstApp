@@ -209,4 +209,9 @@ $(document).ready(function(){
 		tabSwap.setFrameSize();
 	});
 	
+	$('#capturePhoto').click(function(){
+		alert('open');
+		capturePhoto();
+	});
+	
 ;})
