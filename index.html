@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Name Frame</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/myfirstapp.css" />
+    <script type="text/javascript" charset="utf-8" src="js/cordova.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+    <!-- <script type="text/javascript" charset="utf-8" src="js/jquery_mobile.min.js"></script> -->
+    <script type="text/javascript" charset="utf-8" src="js/myfirstapp.js"></script>
+   <script type="text/javascript" charset="utf-8">
+
+    </script>
+  </head>
+  <body>
+   <div id="wrapper">
+   <div id="tabWrap">
+   <div id="homeScreen" class="tabs"><img src="images/SUDHU.png" id="logo" /></div>
+    <div id="formScreen" class="tabs">
+    	<div id="formWrap">
+	    	<input type="text" name="name" id="name" placeholder="Your full name" />
+	    	<button onclick="capturePhoto();" class="btn" id="capturePhoto">Capture Photo</button>
+	    	<button id="nameFrame" class="btn btn-primary" >Create My Name Frame</button>
+	    </div>
+    </div>
+    <div id="frameScreen" class="tabs">
+    	<div id="photoWrap">
+    		<div id="top-border"></div>
+    		<div id="right-border"></div>
+    		<div id="bottom-border"></div>
+    		<div id="left-border"></div>
+    		<div id="photoCont"></div>
+    	</div>
+    </div>
+   </div>
+    </div>
+  </body>
+</html>
